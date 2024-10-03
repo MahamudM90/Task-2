@@ -9,9 +9,9 @@ const NavBar = () => {
             <div className="container mx-auto flex gap-12 max-sm:gap-64 items-center">
                 <img className='w-[35px] h-[40px]' src={logo}></img>
                 <div className="hidden md:flex space-x-6">
-                    <p className='text-black font-normal font-family: Arial, sans-serif'>Home</p>
-                    <p className='text-black font-normal font-family: Arial, sans-serif'>Product</p>
-                    <p className='text-black font-normal font-family: Arial, sans-serif'>Review</p>
+                    <a href='#home' className='text-black font-normal font-family: Arial, sans-serif'>Home</a>
+                    <a href='#product' className='text-black font-normal font-family: Arial, sans-serif'>Product</a>
+                    <a href='#cards' className='text-black font-normal font-family: Arial, sans-serif'>Review</a>
                 </div>
                 <div className="md:hidden">
                     <button onClick={() => setIsOpen(!isOpen)}>
@@ -21,9 +21,9 @@ const NavBar = () => {
             </div>
             {isOpen && (
                 <div className="md:hidden text-center">
-                    <p className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Home</p>
-                    <p className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Product</p>
-                    <p className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Review</p>
+                    <a href='#home' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Home</a>
+                    <a href='#products' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Product</a>
+                    <a href='#cards' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Review</a>
                 </div>
             )}
         </nav>
