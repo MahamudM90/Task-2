@@ -20,8 +20,8 @@ A single-page responsive website using React, Tailwind CSS, and React-spring
 
   ## Run it Locally
   $ git clone https://github.com/MahamudM90/Task-2.git
-  cd fashion-house
-  npm i
-  npm run dev
+  $ cd fashion-house
+  $ npm i
+  $ npm run dev
 
   ###    [Live Site](https://steadtask2.netlify.app)
