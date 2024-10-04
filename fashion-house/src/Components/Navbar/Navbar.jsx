@@ -20,7 +20,7 @@ const NavBar = () => {
                 </div>
             </div>
             {isOpen && (
-                <div className="md:hidden text-center">
+                <div className="md:hidden text-center bg-blue-100">
                     <a href='#home' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Home</a>
                     <a href='#products' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Product</a>
                     <a href='#cards' className="block py-2 text-black text-black font-normal font-family: Arial, sans-serif">Review</a>
