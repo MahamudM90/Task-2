@@ -19,9 +19,11 @@ A single-page responsive website using React, Tailwind CSS, and React-spring
   When I generate fake data locally, the image does not link properly in the image bb for hoisting, but after creating the data in the JSON generator, the link works properly.
   
   ## Run it Locally
-  $ git clone https://github.com/MahamudM90/Task-2.git
-  $ cd fashion-house
-  $ npm install
-  $ npm run dev
+```
+$ https://github.com/MahamudM90/Task-2.git
+$ cd fashion-house
+$ npm install
+$ npm run dev
+```
 
   ###    [Live Site](https://steadtask2.netlify.app)
