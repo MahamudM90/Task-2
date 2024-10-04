@@ -7,7 +7,7 @@ const Card = ({ img, name, details }) => {
       <h2 className="text-xl font-bold mb-2">{name}</h2>
       <p className='font-light'>{details}</p>
       <br></br>
-      <button className='w-[110px] h-[40px] bg-slate-200 hover:bg-slate-300 rounded font-thin font-Arial'>Add To Cart</button>
+      <button className='w-[112px] h-[40px] bg-slate-200 hover:bg-slate-300 rounded font-thin font-Arial'>Add To Cart</button>
     </div>
   );
 };
