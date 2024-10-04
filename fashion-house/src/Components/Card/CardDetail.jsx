@@ -3,12 +3,12 @@ import Card from '../Card/Card';
 
 
 const CardDetail = () => {
-  const [products,setProducts] = useState([])
-  useEffect(()=>{
+  const [products, setProducts] = useState([])
+  useEffect(() => {
     fetch('product.json')
-    .then(response=> response.json())
-    .then(data=>setProducts(data))
-  },[])
+      .then(response => response.json())
+      .then(data => setProducts(data))
+  }, [])
 
   return (
     <section id="cards" className="py-16">

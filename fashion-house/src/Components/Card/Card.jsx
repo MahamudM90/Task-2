@@ -3,7 +3,7 @@ import React from 'react';
 const Card = ({ img, name, details }) => {
   return (
     <div className="bg-gray-100 p-6 rounded-lg shadow-lg text-center  max-sm:m-4">
-      <img src={img} alt={name} className="w-full h-48 object-cover mb-4 rounded-lg "/>
+      <img src={img} alt={name} className="w-full h-48 object-cover mb-4 rounded-lg " />
       <h2 className="text-xl font-bold mb-2">{name}</h2>
       <p className='font-light'>{details}</p>
       <br></br>

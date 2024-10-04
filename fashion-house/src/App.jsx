@@ -1,6 +1,5 @@
 
 import './App.css'
-import Card from './Components/Card/Card'
 import CardDetail from './Components/Card/CardDetail'
 import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
@@ -10,10 +9,10 @@ function App() {
 
   return (
     <>
-     <Navbar></Navbar>
-     <Hero></Hero>
-     <CardDetail></CardDetail>
-     <Footer></Footer>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <CardDetail></CardDetail>
+      <Footer></Footer>
     </>
   )
 }
