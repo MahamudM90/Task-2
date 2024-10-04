@@ -11,7 +11,7 @@ const Hero = () => {
     <div className='hero'>
       <animated.section style={fadeIn}>
         <img className='w-fit h-fit' src={ecommerce}></img>
-        <div className='md:-mt-[550px] md:mx-[500px] max-sm:-mt-[180px] max-sm:mx-[70px]'>
+        <div className='md:-mt-[550px] md:mx-[500px] max-sm:-mt-[190px] max-sm:mx-[80px]'>
         <h1 className="fashion-house text-[27px] text-black md:font-bold">Welcome to you</h1>
         <br></br>
         <div className='mx-8'>
