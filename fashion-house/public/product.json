@@ -1,0 +1,22 @@
+[
+  {
+    "img": "https://i.ibb.co.com/jLhBpXx/3.png",
+    "name": "Product 1",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "img": "https://i.ibb.co.com/M1MkXHf/4.png",
+    "name": "Product 2",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "img": "https://i.ibb.co.com/jLhBpXx/3.png",
+    "name": "Product 3",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "img": "https://i.ibb.co.com/M1MkXHf/4.png",
+    "name": "Product 4",
+    "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  }
+]

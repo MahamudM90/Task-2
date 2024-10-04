@@ -14,8 +14,6 @@ const Hero = () => {
       <br></br>
       <a href="#cards" className="bg-blue-400 px-6 py-3 rounded-full text-lg hover:bg-blue-200 transition ">Buy Now</a>
       <h1 className="fashion-house text-[27px] text-black font-bold mt-4">Happy Shopping</h1>
-      
-     
     </animated.section>
     </div>
   );
